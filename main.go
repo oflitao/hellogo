@@ -11,3 +11,7 @@ func main() {
 
 	hello.Hello("litao")
 }
+
+func Jump() {
+	fmt.Println("jump")
+}
