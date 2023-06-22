@@ -1,0 +1,50 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "window.commandCenter": false,
+    "workbench.fontAliasing": "antialiased",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 18,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.guides.bracketPairs": "active",
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.accessibilitySupport": "off",
+    "debug.toolBarLocation": "docked",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.name.type, entity.name.namespace",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "entity.name.namespace",
+                    "settings": {
+                        "foreground": "#00ffaa"
+                    }
+                },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#66D9EF"
+                    }
+                },
+                {
+                    "scope": "variable.other.constant",
+                    "settings": {
+                        "foreground": "#AE81FF"
+                    }
+                }
+            ]
+        }
+    },
+    "go.toolsManagement.autoUpdate": true
+}
