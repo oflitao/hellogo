@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/oflitao/hello-go/hello"
+	"github.com/oflitao/hellogo/hello"
 )
 
 func main() {

@@ -1,3 +1,3 @@
-module github.com/oflitao/hello-go
+module github.com/oflitao/hellogo
 
 go 1.20
